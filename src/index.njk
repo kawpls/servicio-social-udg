@@ -1,0 +1,56 @@
+---
+eleventyExcludeFromCollections: true
+layout: default
+title: Ayuda Para La Mujer
+description: Compartir la experiencia y aprender de otras experiencias de mujeres víctimas de violencia intrafamiliar o de pareja, que alienten a la motivación y fuerza de las mujeres en situaciones semejantes.
+path: home
+---
+
+<div class="min-h-screen hero " style="background-image: url('static/img/hero-4.webp')">
+  <div class=""></div>
+  <div class="text-center hero-content text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">Ayuda Para La Mujer</h1>
+      <p class="mb-5 font-medium">
+        Si vencí al maltrato, soy capaz de todo.
+      </p>
+      <a href="/blog" class="btn btn-wide btn-xl">Blog</a>
+    </div>
+  </div>
+</div>
+<section class="mt-8" >
+  <div class="flex flex-wrap items-center justify-center">
+    <h1 class="mb-5 text-5xl font-bold">Si vencí al maltrato, soy capaz de todo.</h1>
+  </div>
+  <div class="flex flex-wrap items-center justify-center">
+    <div class="bg-[#193db4]  shadow-xl card w-96">
+      <div class="items-center text-center card-body">
+        <h2 class="card-title text-[#823F80] font-bold text-2xl">Era celoso y posesivo, me hizo mucho daño emocional</h2>
+        <p>Hola, soy Juana, tengo 23 años, actualmente estoy estudiando, además de trabajar de estilista. Mi ex trabaja en el aeropuerto, documentando maletas, es profesionista, contador, tiene 20 años. La situación económica de mi familia es buena, nivel medio-alto, igual en su caso. Les contaré un poco de mi historia de vida. La situación económica de mi familia es buena, nivel medio-alto, igual en su caso. Les contaré un poco de mi historia de vida. Viví una infancia de Bullying dentro de mi familia provocada por mis hermanos, me afectó aún más por la sobreprotección de mis padres, por el hecho de ser mujer.</p>
+        <div class="card-actions">
+          <button class="btn bg-[#823F80]">LEER HISTORIA COMPLETA</button>
+        </div>
+      </div>
+    </div>
+    <div class="mt-6 lg:mx-4 lg:mt-0">
+      <img src="static/img/blog-img-2.webp" alt="Image 1" class="h-64 rounded-lg ">
+      <img src="static/img/blog-img-5.webp" alt="Image 2" class="h-64 mt-4 rounded-lg">
+    </div>
+  </div>
+</section>
+<section class="mt-8">
+  <div class="container mx-auto">
+    {% for item in BlogPreview.links %}
+      <div class="shadow-xl card lg:card-side bg-base-100">
+        <figure><img class="w-full h-full" src="{{ item.imagePreview }}" alt="BlogImage"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">{{ item.titlePreview }}</h2>
+          <p>{{ item.descPreview }}</p>
+          <div class="justify-end card-actions">
+            <a class="btn btn-ghost" href="{{ item.urlPreview }}">Seguir Leyendo</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>

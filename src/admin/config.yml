@@ -1,0 +1,108 @@
+backend:
+  name: git-gateway
+  branch: master
+media_folder: "src/static/img"
+public_folder: "/static/img"
+site_url: https://ayudaparalamujer.netlify.app
+publish_mode: editorial_workflow
+# Please run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+collections:
+  - label: "Settings"
+    name: "settings"
+    editor:
+      preview: false
+    files:
+      - label: "Navigation"
+        name: "items"
+        file: "src/_data/navigation.json"
+        fields:
+          - label: Nav Items
+            name: items
+            widget: list
+            allow_add: true
+            collapsed: false
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: Icon, name: icon, widget: image, choose_url: false }
+              - { label: URL, name: url, widget: string }
+      - label: "Meta Settings"
+        name: "settings"
+        file: "src/_data/settings.json"
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Author, name: author, widget: string }
+          - { label: URL, name: url, widget: string }
+      - label: "Blog Preview"
+        name: "links"
+        file: "src/_data/BlogPreview.json"
+        fields:
+          - label: Blog Preview
+            name: links
+            widget: list
+            collapsed: false
+            fields:
+              - { label: Title, name: titlePreview, widget: string }
+              - { label: URL, name: urlPreview, widget: string }
+              - { label: Description, name: descPreview, widget: string }
+              - { label: Author, name: authorPreview, widget: string }
+              - { label: Publish Date, name: datePreview, widget: datetime }
+              - { label: Image, name: imagePreview, widget: image }
+  - label: "Posts"
+    name: "posts"
+    editor:
+      preview: false
+    label_singular: "Post"
+    folder: "src/posts"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}}, {{author}} -- {{year}}/{{month}}/{{day}}"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: true,
+        }
+      - { label: "Author", name: "author", widget: "string", required: true }
+      - { label: "Cover Image", name: "image", widget: "image", required: true }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "YYYY-MM-DD",
+          time_format: "HH:mm",
+          format: "YYYY-MM-DD HH:mm",
+        }
+      - { label: "Body", name: "body", widget: "markdown", hint: "Content" }
+      - {
+          widget: select,
+          label: "Categorias",
+          name: "tags",
+          multiple: true,
+          create: true,
+          options:
+            [
+              "ViolenciaFamiliar",
+              "MujeresMexicanas",
+              "AyudaParaMujeres",
+              "NoEstásSola",
+              "MujeresFuertes",
+              "MujeresValientes",
+              "MujeresUnidas",
+              "Feminismo",
+              "IgualdadDeGénero",
+              "DerechosDeLasMujeres",
+              "PrevenciónDeLaViolencia",
+              "DenunciaLaViolencia",
+              "AtenciónPsicológica",
+              "ViolenciaDoméstica",
+              "AbusoFísico",
+              "AbusoEmocional",
+              "AgresiónSexual",
+              "Machismo",
+              "Patriarcado",
+              "EmpoderamientoFemenino",
+            ],
+        }
