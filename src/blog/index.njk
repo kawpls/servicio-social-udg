@@ -3,33 +3,12 @@ eleventyExcludeFromCollections: true
 layout: blog
 ---
 
-<section class="mt-15">
+<div class="mb-12 space-y-2 text-center">
+  <h2 class="text-2xl font-bold text-cyan-900 md:text-4xl">{{title}}</h2>
+  <p class="font-semibold lg:mx-auto">{{description}}</p>
+</div>
+<div class="grid gap-12">
   {% for post in collections.all | reverse %}
-    <article class="my-8">
-      <h2 class="mb-2 text-3xl font-bold text-gray-900">
-        <a href="{{ post.url | url }}">
-          {% if post.data.title %}
-            {{ post.data.title }}
-          {% else %} Untitled {% endif %}
-        </a>
-      </h2>
-      <p class="mb-3 text-base leading-6 text-gray-500">
-        <time>
-          {{ post.date | readableDate }}
-        </time>
-        by {{ post.data.author }}
-      </p>
-      {% for tag in post.data.tags %}
-        <p class="p-3 mb-2 mr-2 badge">#{{tag}}</p>
-      {% endfor %}
-      {% if post.data.description %}
-        <p class="mb-3 text-lg text-gray-500">{{ post.data.description }}</p>
-      {% endif %}
-      <p>
-        <a href="{{ post.url | url }}" class="text-lg font-bold text-indigo-500">
-        Read more →
-      </a>
-      </p>
-    </article>
+    {% include "../_includes/partials/card.njk" %}
   {% endfor %}
-</section>
+</div>
