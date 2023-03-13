@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html,liquid,njk}'],
+  content: ['./src/**/*.{html,njk}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'oswald': ['Oswald', "sans-serif"]
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };

@@ -4,25 +4,25 @@
       <img src="/static/img/logo.webp" alt="logo" class="object-cover object-center w-full h-full"/>
     </a>
   </div>
-  <div class="lg:flex flex-row flex-grow hidden justify-end space-x-4 mr-5">
+  <div class="flex-row justify-end flex-grow hidden mr-5 space-x-4 lg:flex">
     <div class="hidden lg:flex">
       {% if navigation.items %}
         {% for item in navigation.items %}
-          <a href="{{ item.url }}" class="font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none">{{ item.text }}</a>
+          <a href="{{ item.url }}" class="p-3 text-xl font-bold transition duration-150 ease-in scale-x-100 border-b-4 border-transparent select-none xl:text-2xl">{{ item.text }}</a>
         {% endfor %}
       {% endif %}
     </div>
   </div>
   <div class="ml-auto dropdown dropdown-end">
     <label tabindex="0" class="btn btn-ghost lg:hidden">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16"/>
       </svg>
     </label>
-    <ul tabindex="0" class="menu dropdown-content p-2 shadow-2xl bg-base-100 rounded-box w-52 mt-4">
+    <ul tabindex="0" class="p-2 mt-4 shadow-2xl menu dropdown-content bg-base-100 rounded-box w-52">
       {% if navigation.items %}
         {% for item in navigation.items %}
-          <a href="{{ item.url }}" class="font-bold mx-auto p-4 text-xl">
+          <a href="{{ item.url }}" class="p-4 mx-auto text-xl font-bold">
             {{ item.text }}
           </a>
         {% endfor %}

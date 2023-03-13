@@ -2,26 +2,13 @@
 eleventyExcludeFromCollections: true
 layout: blog
 ---
-
+{%- from "../_includes/components/blogcard.njk" import blogcard -%}
 <div class="mb-12 space-y-2 text-center">
   <h2 class="text-2xl font-bold text-cyan-900 md:text-4xl">{{title}}</h2>
   <p class="font-semibold lg:mx-auto">{{description}}</p>
 </div>
 <div class="grid gap-12">
   {% for post in collections.all | reverse %}
-    <div class="space-x-6 bg-white bg-opacity-50 shadow-xl rounded-xl group sm:flex hover:rounded-2xl">
-      <img src="{{ post.data.image }}" alt="art cover" loading="lazy"  class="object-fill w-full h-56 lg:rounded-l-lg sm:h-full sm:w-5/12">
-      <div class="p-5 pl-0 my-auto sm:w-7/12">
-        <div class="space-y-4 ">
-          <div class="space-y-4">
-            <h4 class="text-2xl font-semibold text-cyan-900">{{ post.data.title }}</h4>
-            <p class="text-gray-600">{{ post.data.description }}</p>
-          </div >
-          <div class="flex justify-end">
-            <a href="{{ post.url }}" class="btn bg-[#823F80] ">Seguir Leyendo</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    {{ blogcard({ post: post.data, url: post.url })}}
   {% endfor %}
 </div>
