@@ -1,17 +1,17 @@
 {%- macro blogcard(params) -%}
-  <div class="space-x-6 bg-white bg-opacity-50 shadow-xl rounded-xl group sm:flex hover:rounded-2xl">
-    <img src="{{ params.post.image }}" alt="art cover" loading="lazy"  class="object-fill w-full h-56 rounded-lg sm:rounded-r-none sm:h-full sm:w-5/12">
+  <div class="space-x-6 bg-opacity-50 shadow-2xl bg-secondary rounded-2xl group sm:flex">
+    <img src="{{ params.post.image }}" alt="art cover" loading="lazy"  class="object-fill w-full h-56 rounded-t-lg sm:rounded-r-none sm:h-full sm:w-5/12">
     <div class="p-5 pl-0 my-auto sm:w-7/12">
       <div class="space-y-4 ">
         <div class="space-y-4">
-          <h4 class="text-2xl font-semibold text-cyan-900">{{ params.post.title }}</h4>
-          <p class="text-gray-600">{{ params.post.description }}</p>
+          <h3 class="text-4xl font-bold font-oswald">{{ params.post.title }}</h3>
+          <p class="font-semibold">{{ params.post.description }}</p>
         </div >
         <div class="flex justify-end">
           {% if params.url %}
-            <a href="{{ params.url }}" class="btn bg-[#823F80] ">Seguir Leyendo</a>
+            <a href="{{ params.url }}" class="btn btn-primary ">Seguir Leyendo</a>
           {% else %}
-            <a href="{{ params.post.url }}" class="btn bg-[#823F80] ">Seguir Leyendo</a>
+            <a href="{{ params.post.url }}" class="btn btn-primary ">Seguir Leyendo</a>
           {% endif %}
         </div>
       </div>
