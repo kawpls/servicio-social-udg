@@ -19,11 +19,6 @@
       "text": "Contacto",
       "url": "/contacto",
       "icon": "/static/img/mail.svg"
-    },
-    {
-      "text": "Admin",
-      "url": "/Admin",
-      "icon": "/static/img/lock.svg"
     }
   ]
 }
