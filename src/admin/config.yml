@@ -51,7 +51,6 @@ collections:
               - { label: Cover Image, name: image, widget: image }
   - label: "Posts"
     name: "posts"
-    publish_mode: editorial_workflow
     editor:
       preview: false
     label_singular: "Post"
