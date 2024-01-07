@@ -36,6 +36,9 @@
 
       gtag('config', 'G-4T1E28YERK');
     </script>
+    {% if path == "home" %}
+      <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
   </head>
   <body>
     {% include "./partials/navbar.njk" %}
