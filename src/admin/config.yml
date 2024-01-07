@@ -6,11 +6,11 @@ public_folder: "/static/img"
 site_url: https://ayudaparalamujer.netlify.app
 display_url: https://ayudaparalamujer.netlify.app
 logo_url: https://raw.githubusercontent.com/kawpls/servicio-social-udg/master/src/static/img/logo.webp
-# Please run "npx netlify-cms-proxy-server" for local backend
-local_backend: true
+locale: "es"
+search: false
 collections:
-  - label: "Settings"
-    name: "settings"
+  - label: "Configuraciones de la Pagina"
+    name: "Configuraciones de la Pagina"
     editor:
       preview: false
     files:
@@ -60,12 +60,7 @@ collections:
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string", required: true }
-      - {
-          label: "Description",
-          name: "description",
-          widget: "string",
-          required: true,
-        }
+      - { label: "Description", name: "description", widget: "string", required: true }
       - { label: "Author", name: "author", widget: "string", required: true }
       - { label: "Cover Image", name: "image", widget: "image", required: true }
       - { label: "Publish Date", name: "date", widget: "datetime" }

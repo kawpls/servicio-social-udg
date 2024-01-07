@@ -43,9 +43,5 @@
     {% include "./partials/navbar.njk" %}
     {{ content | safe }}
     {% include "./partials/footer.njk" %}
-    {% if path == "home" %}
-      <script defer type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    {% endif %}
   </body>
-
 </html>
