@@ -5,7 +5,7 @@ media_folder: "src/static/img"
 public_folder: "/static/img"
 site_url: https://ayudaparalamujer.netlify.app
 display_url: https://ayudaparalamujer.netlify.app
-logo_url: https://raw.githubusercontent.com/kawpls/servicio-social-udg/master/src/static/img/logo.webp
+logo_url: https://raw.githubusercontent.com/kawpls/servicio-social-udg/master/src/static/img/logo.png
 locale: "es"
 search: false
 collections:
