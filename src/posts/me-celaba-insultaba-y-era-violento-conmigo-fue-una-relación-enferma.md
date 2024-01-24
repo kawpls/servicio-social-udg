@@ -9,7 +9,7 @@ description: "Ernestina de 22 años; estudié una licenciatura y mi nivel socio
   lo mismo de mi segunda relación.  "
 author: Ernestina 22 años
 image: /static/img/blog-img-19.webp
-date: 2024-01-24T16:28:19.090Z
+date: 2024-01-24T20:07:57.390Z
 tags:
   - ViolenciaFamiliar
   - MujeresValientes
