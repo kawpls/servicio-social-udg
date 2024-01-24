@@ -6,21 +6,6 @@ module.exports = {
       fontFamily: {
         oswald: ["Oswald", "sans-serif"],
       },
-      colors: {
-        plum: {
-          50: "#fcf7fc",
-          100: "#f8eef9",
-          200: "#f1dcf2",
-          300: "#e6c0e7",
-          400: "#d79ad8",
-          500: "#c272c3",
-          600: "#a653a5",
-          700: "#823f80",
-          800: "#70386d",
-          900: "#5d325a",
-          950: "#3b1739",
-        },
-      },
     },
   },
   daisyui: {
