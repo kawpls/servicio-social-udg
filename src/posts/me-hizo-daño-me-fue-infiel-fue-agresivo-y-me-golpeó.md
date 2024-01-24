@@ -7,8 +7,8 @@ description: Hola, soy María, tengo 39 años. Mi nivel socioeconómico es bajo 
   siempre he trabajado de secretaria, solo estudié hasta primer semestre de
   preparatoria. Tuvimos un hijo.
 author: María 39 años
-image: /static/img/blog-img-3.webp
-date: 2023-03-03T16:00:05.437Z
+image: /static/img/blog-img-6.webp
+date: 2024-01-24T20:08:44.286Z
 tags:
   - Feminismo
   - ViolenciaFamiliar
