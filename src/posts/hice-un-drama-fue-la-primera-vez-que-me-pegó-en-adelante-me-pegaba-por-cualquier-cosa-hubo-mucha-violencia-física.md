@@ -12,7 +12,7 @@ description: Ana de 52 años de edad, ama de casa y solo estudié la primaria.
   el chico.
 author: Ana 52 años
 image: /static/img/blog-img-13.webp
-date: 2023-03-16T11:28:38.525Z
+date: 2024-01-24T20:08:20.526Z
 tags:
   - AyudaParaMujeres
   - Machismo
