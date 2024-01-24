@@ -7,7 +7,7 @@ description: "Ernestina de 22 años; estudié una licenciatura y mi nivel socio
   relación fue muy buena, le quería mucho, fue mi primer novio. No puedo decir
   lo mismo de mi segunda relación.  "
 author: Ernestina 22 años
-image: http://localhost:3000/img/blog33.png
+image: /src/static/img/blog-img-19.webp
 date: 2024-01-24T16:28:19.090Z
 tags:
   - ViolenciaFamiliar
