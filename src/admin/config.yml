@@ -56,9 +56,10 @@ collections:
     label_singular: "Post"
     folder: "src/posts"
     slug: "{{slug}}"
-    summary: "{{title}}, {{author}} -- {{year}}/{{month}}/{{day}}"
+    summary: "Historia - {{post-number}} -- {{day}}/{{month}}/{{year}}"
     create: true
     fields:
+      - { label: "Post Number", name: "post-number", widget: "number", value_type: "int", required: true }
       - { label: "Title", name: "title", widget: "string", required: true }
       - { label: "Description", name: "description", widget: "string", required: true }
       - { label: "Author", name: "author", widget: "string", required: true }
