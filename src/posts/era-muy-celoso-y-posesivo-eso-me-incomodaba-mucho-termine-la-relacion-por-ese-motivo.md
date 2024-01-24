@@ -1,9 +1,15 @@
 ---
-title: Era muy celoso y posesivo, eso me incomodaba mucho, terminé la relación por ese motivo.
-description: Soy Guadalupe, tengo 31 años y estudié una licenciatura en Ciencias de la Comunicación, actualmente me dedico a cuidar niños en un hotel. Económicamente vivo bien en general. Viví en unión libre, mi ex estudió hasta la secundaria y trabajaba como director de escenografía, su nivel socioeconómico era muy bueno, medio alto.
+post-number: 5
+title: Era muy celoso y posesivo, eso me incomodaba mucho, terminé la relación
+  por ese motivo.
+description: Soy Guadalupe, tengo 31 años y estudié una licenciatura en Ciencias
+  de la Comunicación, actualmente me dedico a cuidar niños en un hotel.
+  Económicamente vivo bien en general. Viví en unión libre, mi ex estudió hasta
+  la secundaria y trabajaba como director de escenografía, su nivel
+  socioeconómico era muy bueno, medio alto.
 author: Guadalupe 31 años
 image: /static/img/blog-img-3.webp
-date: 2023-03-03T16:00:05.437Z
+date: 2024-01-24T19:53:21.985Z
 tags:
   - Feminismo
   - ViolenciaFamiliar
