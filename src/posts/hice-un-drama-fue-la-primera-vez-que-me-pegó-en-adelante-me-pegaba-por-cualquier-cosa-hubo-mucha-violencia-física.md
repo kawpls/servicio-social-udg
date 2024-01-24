@@ -10,7 +10,7 @@ description: Ana de 52 años de edad, ama de casa y solo estudié la primaria.
   mucho para que salir conmigo y cuando le dije que sí, al otro día ya no volvió
   el chico.
 author: Ana 52 años
-image: /src/static/img/blog-img-13.webp
+image: /static/img/blog-img-13.webp
 date: 2023-03-16T11:28:38.525Z
 tags:
   - AyudaParaMujeres
@@ -19,6 +19,7 @@ tags:
   - AgresiónSexual
   - EmpoderamientoFemenino
 ---
+
 Ana de 52 años de edad, ama de casa y solo estudié la primaria. Siempre fuimos de un nivel socioeconómico bajo. Mi esposo era taxista, de nivel medio bajo, estudió y terminó la secundaria; él tenía solo 22 años de edad. Tuvimos 3 hijos.
 
 En mi relación tuve múltiples noviazgos a lo largo de mi vida alrededor de unos 8 o 10 novios, todo dentro de una relación normal, pero un día tuve una relación de un día, debido a que un muchacho me insistió mucho para que salir conmigo y cuando le dije que sí, al otro día ya no volvió el chico.

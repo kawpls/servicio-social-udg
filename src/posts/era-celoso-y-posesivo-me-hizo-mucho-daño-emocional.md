@@ -8,7 +8,7 @@ description: Hola, soy Juana, tengo 23 años, actualmente estoy estudiando,
   provocada por mis hermanos, me afectó aún más por la sobreprotección de mis
   padres, por el hecho de ser mujer.
 author: Juana 23 años
-image: /src/static/img/blog-img-2.webp
+image: /static/img/blog-img-2.webp
 date: 2023-03-03T16:00:05.437Z
 tags:
   - ViolenciaFamiliar
@@ -16,6 +16,7 @@ tags:
   - Feminismo
   - IgualdadDeGénero
 ---
+
 Hola, soy Juana, tengo 23 años, actualmente estoy estudiando, además de trabajar de estilista. Mi ex trabaja en el aeropuerto, documentando maletas, es profesionista, contador, tiene 20 años. La situación económica de mi familia es buena, nivel medio-alto, igual en su caso. Les contaré un poco de mi historia de vida. Viví una infancia de Bullying dentro de mi familia provocada por mis hermanos, me afectó aún más por la sobreprotección de mis padres, por el hecho de ser mujer.
 
 Debido a la sobreprotección me pintaron una vida color rosa, aislada de los demás, libre de peligros y maldad, ignorando, que existen personas malas, lo cual me causó un problema a mí misma, por el conflicto que existió durante mi infancia, puesto que al preguntarme en qué sentido mis padres eran sobreprotectores, me di cuenta que hoy en día, los papás tienden a que los hijos vean mucha violencia, llámese, golpes, alcohol e incluso los llevan a bailes y no sé, me sacan de onda porque yo jamás viví nada de eso, lo mío fue algo así como demasiado color de rosa, como si hubiera vivido en una burbujita.
@@ -28,7 +29,7 @@ Muchas veces no medíamos las palabras y nos lastimábamos. En la primaria, los 
 
 ![Ayuda para la Mujer](/static/img/blog-img-2.webp "Ayuda para la Mujer")
 
-Con quien mejor me llevaba era solamente con uno de mis hermanos, su nombre es Iván, yo sentía cómo, a pesar de que teníamos dificultades sabía que yo podía contar con él y él conmigo, y los otros pues ya tuvieron de cierta manera un alejamiento del hogar porque ya tuvieron pareja y uno de ellos ya tuvo hijos entonces ya no hubo tanto vínculo de hermandad como con el otro. 
+Con quien mejor me llevaba era solamente con uno de mis hermanos, su nombre es Iván, yo sentía cómo, a pesar de que teníamos dificultades sabía que yo podía contar con él y él conmigo, y los otros pues ya tuvieron de cierta manera un alejamiento del hogar porque ya tuvieron pareja y uno de ellos ya tuvo hijos entonces ya no hubo tanto vínculo de hermandad como con el otro.
 
 Respecto a mi relación con mis papás, fueron muy consentidores me daban todo, todo lo que pedía, obtenía todo lo que les pedía, juguetes, dulces, que yo creo que cuando somos niños es lo que más pedimos. Que recuerde, nunca sentí rechazo, indiferencia o favoritismo por ninguno de nosotros cuatro. Me cuidaban más por ser niña, pero siempre nos trataron igual a todos.
 
