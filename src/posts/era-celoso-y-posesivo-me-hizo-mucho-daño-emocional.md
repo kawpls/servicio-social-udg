@@ -1,4 +1,5 @@
 ---
+post-number: 1
 title: Era celoso y posesivo, me hizo mucho daño emocional
 description: Hola, soy Juana, tengo 23 años, actualmente estoy estudiando,
   además de trabajar de estilista. Mi ex trabaja en el aeropuerto, documentando
@@ -9,7 +10,7 @@ description: Hola, soy Juana, tengo 23 años, actualmente estoy estudiando,
   padres, por el hecho de ser mujer.
 author: Juana 23 años
 image: /static/img/blog-img-2.webp
-date: 2023-03-03T16:00:05.437Z
+date: 2024-01-24T19:53:53.559Z
 tags:
   - ViolenciaFamiliar
   - AyudaParaMujeres
