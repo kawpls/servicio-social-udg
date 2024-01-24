@@ -1,4 +1,5 @@
 ---
+post-number: 4
 title: Me celaba, insultaba y era violento conmigo, fue una relación enferma
 description: "Ernestina de 22 años; estudié una licenciatura y mi nivel socio
   económico fue bueno, diría que medio. Mi novio, del cual te contaré mi
