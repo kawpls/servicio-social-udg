@@ -6,7 +6,7 @@ description: "Ernestina de 22 años; estudié una licenciatura y mi nivel socio
   he tenido dos parejas, actualmente tengo una tercera relación. Mi primera
   relación fue muy buena, le quería mucho, fue mi primer novio. No puedo decir
   lo mismo de mi segunda relación.  "
-author: Ana 52 años
+author: Ernestina 22 años
 image: http://localhost:3000/img/blog33.png
 date: 2024-01-24T16:28:19.090Z
 tags:
