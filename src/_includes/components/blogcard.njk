@@ -7,12 +7,18 @@
           <h3 class="text-4xl font-bold font-oswald">{{ params.post.title }}</h3>
           <p class="font-semibold">{{ params.post.description }}</p>
         </div >
+        <div class="hidden md:flex items-start space-x-2">
+          {% for tags in params.post.tags | reverse %}
+            <div class="badge badge-primary p-3">{{tags}}</div>
+          {% endfor %}
+        </div>
         <div class="flex justify-end">
           {% if params.url %}
             <a href="{{ params.url }}" class="btn btn-primary ">Seguir Leyendo</a>
           {% else %}
             <a href="{{ params.post.url }}" class="btn btn-primary ">Seguir Leyendo</a>
           {% endif %}
+
         </div>
       </div>
     </div>
