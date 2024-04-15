@@ -1,7 +1,7 @@
 <nav id="nav" class="top-0 z-50 flex items-center justify-start min-w-full p-4 bg-secondary">
   <div class="">
     <a href="/" class="w-2/4 lg:w-1/6">
-      <img loading="lazy" src="/static/img/logo.webp" alt="logo" class="object-cover object-center w-full h-full" width="359" height="87"/>
+      <img  src="/static/img/logo.webp" alt="logo" class="object-cover object-center w-full h-full" width="359" height="87"/>
     </a>
   </div>
   <div class="flex-row justify-end flex-grow hidden mr-5 space-x-4 lg:flex">
@@ -9,7 +9,7 @@
       {% if navigation.items %}
         {% for item in navigation.items %}
           <a href="{{ item.url }}" class="flex gap-2 p-2 mx-auto transition duration-300 ease-in border-b-4 border-transparent hover:border-primary">
-            <img loading="lazy" src="{{item.icon}}" alt="icon-{{item.text}}" width="28" height="28"/>
+            <img  src="{{item.icon}}" alt="icon-{{item.text}}" width="28" height="28"/>
             <p  class="text-xl font-bold ">
               {{ item.text }}
             </p>
@@ -28,7 +28,7 @@
       {% if navigation.items %}
         {% for item in navigation.items %}
           <div class="flex gap-2 mx-auto my-4">
-            <img loading="lazy" src="{{item.icon}}" alt="icon-{{item.text}}" width="28" height="28"/>
+            <img  src="{{item.icon}}" alt="icon-{{item.text}}" width="28" height="28"/>
             <a href="{{ item.url }}" class="text-xl font-bold ">
               {{ item.text }}
             </a>
